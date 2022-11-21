@@ -13,14 +13,48 @@
         <header>
             <form class="caixa">
                 <h1 class="titulo">My To Do List</h1>
-                <label for="tarefa">Tarefa</label>
-                <input type="text" name="Tarefa" id="tarefa" required="" placeholder="Digite sua tarefa">
+
+                <div>
+                    <input type="text" name="tarefa" id="tarefa" required="" placeholder="Digite sua tarefa">
+                    <button class="addBtn" value="AddTask" onclick="novaTarefa()">Adicionar</button>
+                </div>
+            
             </form>
         </header>
 
-    </body>
-    <footer>
+        <fieldset>
+            <legend>Tarefas</legend>
+            <ul class="tarefas-adicionadas" id="minhaLista">
+                <li class="checkbox">Lavar Roupas <button class="deletar">X</button></li>
+                <li class="checkbox">Lavar louças <button class="deletar">X</button></li>
+            </ul>
+        </fieldset>
 
-    </footer>
+        <script type="text/javascript">
+
+            var ul = document.getElementById(minhaLista);
+            var li;
+            var itemId;
+
+            novaTarefa = function() {
+                alert("oi");
+            }
+
+            removerTarefa = function() {
+
+            }
+
+            criarItemEl = function() {
+
+            }
+
+            criarBtnRemover = function() {
+
+            }
+
+        </script>
+
+    </body>
+    
         
 </html>
