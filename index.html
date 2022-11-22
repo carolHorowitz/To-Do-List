@@ -30,45 +30,7 @@
             </ul>
         </fieldset>
 
-        <script type="text/javascript">
-
-            var ul = document.getElementById("minhaLista");
-            var li;
-            var itemId;
-            var item 
-
-            novaTarefa = function() {
-                if (document.getElementById("tarefa").value != "")
-                    item = document.getElementById("tarefa");
-
-                    itemId = ul.childElementCount;
-
-                    li = criarItemEl(item.value, itemId);
-                    li = appendChild(criarBtnRemover(itemId));
-                    ul = appendChild(li);
-            }
-
-            removerTarefa = function() {
-
-            }
-
-            criarItemEl = function(itemValue, itemId) {
-                let li = document.createElement("li");
-
-                li = setAttribute("index", itemId);
-
-                li.appendChild(document.createTextNode(itemValue));
-
-                return li;
-
-
-            }
-
-            criarBtnRemover = function(itemId) {
-
-            }
-
-        </script>
+        
 
     </body>
     
