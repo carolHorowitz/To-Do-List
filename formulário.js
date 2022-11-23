@@ -1,14 +1,14 @@
 
 
 function novaTarefa() {
-    const lista = document.getElementById("minhaLista");
-    const tarefa = document.getElementById("tarefa").value;
+    const lista=document.getElementById("minhaLista");
+    const tarefa=document.getElementById("tarefa").value;
     const span=document.createElement("span")
     span.append(tarefa);
     console.log(span)
 
-    const item = document.createElement("li");
-    const excluir = document.createElement("button")
+    const item=document.createElement("li");
+    const excluir=document.createElement("button")
     const X=document.createTextNode("X")
     excluir.appendChild(X);
 

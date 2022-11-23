@@ -4,30 +4,31 @@
         <meta charset="UTF-8">
         <title>ToDo List</title>
 
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
 
     </head>
 
 
-    <body>
+    <body class="principal">
         <header>
-            <form class="caixa">
+            <form>
                 <h1 class="titulo">My To Do List</h1>
 
-                <div>
-                    <input type="text" name="tarefa" id="tarefa" required="" placeholder="Digite sua tarefa">
+                <div class="input">
+                    <input type="text" class="tarefa" name="tarefa" id="tarefa" required="" placeholder="Digite sua tarefa">
                     <button type="button" class="addBtn" id = "btn" onclick="novaTarefa()">Adicionar</button>
                 </div>
             
             </form>
         </header>
 
-        <fieldset>
-            <legend>Tarefas</legend>
+        <container class="principal">
+            <legend>Tarefas:</legend>
             <ul class="tarefas-adicionadas" id="minhaLista">
              
             </ul>
-        </fieldset>
+        </container>
 
         <script src="formulário.js"></script>
 

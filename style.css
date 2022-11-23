@@ -1,3 +1,101 @@
+header {
+    background-color: lightpink;
+    background: linear-gradient(lightpink, rgb(250, 222, 226));
+  
+    padding: 20px;
+    
+}
+
+h1 {
+    vertical-align: top;
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:cursive;
+
+        
+}    
+
+.titulo {
+    text-align: center;
+    color: #f5f5f5;
+    text-shadow: 0.1rem 0.2rem rgb(255, 121, 215);
+ 
+}
+
+.tarefa {
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    border-color: rgb(255, 115, 204);
+    border-style: dotted;
+    size: 2rem;
+    width: 250px;
+    height: 30px;
+    
+}
+
+.tarefa:hover {
+    border: none;
+    background-color: rgb(252, 244, 248);
+    transform: scale(1.02);
+}
+
+.addBtn {
+    width: 70px;
+    height: 35px;
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    border-color: mediumvioletred;
+    background-color:rgb(255, 255, 255);
+    font-family: cursive;
+    margin: auto;
+
+}
+
+.addBtn:hover {
+    background-color:rgb(255, 142, 230);
+    border: none;
+    transform: scale(1.02);
+}
+
+button {
+    
+    font-style: bold;
+    font-family: cursive;
+    text-align: center;
+    border-style:ridge;
+    border-color: rgb(241, 204, 228);
+    border-style: dotted;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    
+    font-style: bold;
+    font-family: cursive;
+}
+
+
 .checked {
     text-decoration: line-through;
 }
+
+.principal {
+    background-image: url(fundo.jpg);
+
+}
+
+legend {
+    text-align:left;
+    padding: 30px 150px;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family: cursive;
+    color: #f7f7f7;
+    text-shadow: 0.1rem 0.1rem rgb(153, 0, 107);
+    
+}
+
