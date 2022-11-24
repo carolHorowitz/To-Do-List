@@ -12,23 +12,21 @@
 
     <body class="principal">
         <header>
-            <form>
-                <h1 class="titulo">My To Do List</h1>
+            <h1 class="titulo">My To Do List</h1>
 
-                <div class="input">
-                    <input type="text" class="tarefa" name="tarefa" id="tarefa" required="" placeholder="Digite sua tarefa">
-                    <button type="button" class="addBtn" id = "btn" onclick="novaTarefa()">Adicionar</button>
-                </div>
+            <div class="input">
+                <input type="text" class="tarefa" name="tarefa" id="tarefa" required="" placeholder="Digite sua tarefa" onfocus="this.value='';">
+                <button type="button" class="addBtn" id = "btn" onclick="novaTarefa()">Adicionar</button>
+            </div>
             
-            </form>
         </header>
 
-        <container class="principal">
+        <div class="container">
             <legend>Tarefas:</legend>
             <ul class="tarefas-adicionadas" id="minhaLista">
              
             </ul>
-        </container>
+        </div>
 
         <script src="formulário.js"></script>
 
